@@ -1,0 +1,146 @@
+body {
+
+
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(194, 138, 35, 0.589);
+    font-family: 'rajdhani';
+    border-bottom: 43px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+
+}
+
+
+.photo {
+    margin-left: 34px;
+    /* border: 2px solid green; */
+    width: 134px;
+    height: 134px;
+    border-radius: 100px;
+    background-image: url("logo.jpg");
+    /* background-size: cover; */
+    /* background-size: con/tain; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.bar {
+    /* border: 2px solid yellow; */
+    margin: 23px;
+
+}
+
+.bar ul {
+
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+
+}
+
+.bar ul li a {
+    margin: 14px;
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+
+
+}
+
+.bar ul a:hover {
+    color: rgb(16, 141, 74)
+}
+
+.content {
+    margin-top: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid green; */
+
+}
+
+.para {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.pics {
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    height: fit-content;
+    margin-left: 155px;
+    margin-right: 155px;
+    margin-top: 100px;
+    padding: 70px;
+
+}
+
+.pic1 {
+    /* border: 2px solid rgb(45, 5, 13); */
+    margin: 13px;
+    width: 300px;
+    height: 200px;
+    border-radius: 100px;
+
+}
+
+.pic2 {
+
+    /* border: 2px solid rgb(41, 28, 184); */
+    margin: 13px;
+    width: 300px;
+    height: 200px;
+    border-radius: 100px;
+
+
+
+}
+
+.pic3 {
+    /* border: 2px solid rgb(42, 149, 85); */
+    margin: 13px;
+    width: 300px;
+    height: 200px;
+    border-radius: 100px;
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+}
+
+.about {
+
+    height: 100px;
+    /* width: 100vb; */
+    /* border: 2px solid rgb(227, 29, 29); */
+    margin-left: 155px;
+    margin-right: 155px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    padding-top: 0px;
+
+}
+
+.abhead {
+    padding: 0;
+    margin: 0;
+    /* border: 2px solid orange; */
+}
